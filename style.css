@@ -1,0 +1,189 @@
+h1 {
+	text-align: center;
+	font-family:sans-serif;
+}
+
+.robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #1589FF;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 100px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+} 
+
+.ears{ 
+	margin: 0 auto; 
+	height: 80px;
+	display: flex;  
+}
+
+.eyes {
+	display: flex
+}
+
+.head:hover {
+	width: 380px;
+    transition: 3s ease-in-out;
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex; 
+} 
+
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.left_arm:hover { 
+	margin-right: 10px;
+    transform: rotate(180deg);
+    transition: 2s ease-in-out;
+
+} 
+
+.right_arm { 
+	margin-left: 10px; 
+} 
+
+.right_arm:hover { 
+	margin-left: 10px; 
+    transform: rotate(-180deg);
+    transition: 2s ease-in-out;
+} 
+
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+} 
+
+.torso:hover { 
+	width: 500px; 
+	height: 250px;
+	display: flex; 
+	transition: 2s ease-in-out;
+} 
+
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	margin: 0 auto;
+	display: flex; 
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    transform: rotate(70deg);
+    transition: 2s ease-in-out;
+}
+
+.right_leg:hover { 
+	margin-left: 30px;
+	transform: rotate(-70deg);
+    transition: 2s ease-in-out; 
+}
+
+.right_leg { 
+	margin-left: 30px; 
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: black;  
+} 
+
+.left_ear, .right_ear{
+	position: relative;
+	height:80px;
+	width:5px;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+    background-color: #1589FF;
+    margin-top: 10px;  
+}
+
+.left_ear{
+	margin-left: 100px;
+	transform: rotate(-30deg);
+}
+
+.left_ear:hover{
+	margin-left: 100px;
+	width: 20px;
+	transform: rotate(-30deg);
+}
+
+.right_ear{
+	margin-left: 90px;
+	transform: rotate(30deg);
+}
+
+.right_ear:hover{
+	margin-left: 100px;
+	width:20px;
+	transform: rotate(30deg);
+}
+
+.left_eye { 
+	position: relative; 
+	top: 60px; 
+	left: 40px; 
+} 
+
+.left_eye:hover { 
+	position: relative; 
+	top: 60px; 
+	left: 70px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 60px; 
+	left: 120px; 
+}
+
+.right_eye:hover { 
+	position: relative; 
+	top: 60px; 
+	left: 150px; 
+}
